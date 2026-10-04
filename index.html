@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dalila Loureiro | Portefólio</title>
+    <meta name="description" content="Portefólio de Dalila Loureiro, estudante de Engenharia Informática. Projetos em desenvolvimento web e full-stack.">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Dalila Loureiro | Portefólio">
+    <meta property="og:description" content="Estudante de Engenharia Informática. Projetos em desenvolvimento web e full-stack.">
+
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%234f46e5'/><text x='50%25' y='54%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-weight='700' font-size='34' fill='white'>D</text></svg>">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <a class="saltar" href="#conteudo">Saltar para o conteúdo</a>
+
+    <header class="topo">
+        <nav class="nav contentor" aria-label="Navegação principal">
+            <a class="marca" href="#">Dalila<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#competencias">Competências</a></li>
+                <li><a href="#contactos">Contactos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="conteudo">
+
+        <section class="hero contentor">
+            <p class="etiqueta">Olá! O meu nome é</p>
+            <h1>Dalila Loureiro</h1>
+            <p class="hero-sub">
+                Estudante de <strong>Engenharia Informática</strong>. Gosto de construir
+                coisas para a web, da interface à base de dados, que pessoas reais usam no dia a dia.
+            </p>
+            <div class="botoes">
+                <a class="botao botao-principal" href="#projetos">Ver projetos</a>
+                <a class="botao botao-secundario" href="#contactos">Falar comigo</a>
+            </div>
+        </section>
+
+        <section id="sobre" class="seccao contentor">
+            <h2 class="titulo-seccao">Sobre mim</h2>
+            <div class="sobre-grelha">
+                <div class="sobre-texto">
+                    <p>
+                        Estou a estudar Engenharia Informática e aprendo melhor a fazer:
+                        a maior parte do que sei veio de projetos com utilizadores reais,
+                        como o site de um projeto de investigação em educação e uma
+                        plataforma de gestão usada por uma associação académica.
+                    </p>
+                    <p>
+                        Interessa-me sobretudo o desenvolvimento web full-stack: pensar na
+                        experiência de quem usa a aplicação e garantir que o que está por
+                        trás é sólido e fácil de manter.
+                    </p>
+                </div>
+                <ul class="factos">
+                    <li><span class="facto-num">2</span><span>projetos em produção</span></li>
+                    <li><span class="facto-num">Full-stack</span><span>Next.js + Spring Boot</span></li>
+                    <li><span class="facto-num">Git</span><span>trabalho em equipa com pull requests</span></li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="projetos" class="seccao contentor">
+            <h2 class="titulo-seccao">Projetos</h2>
+
+            <article class="projeto">
+                <div class="projeto-imagem">
+                    <img src="img/scrapi.jpg" alt="Logótipo do projeto Scraπ" width="1200" height="630" loading="lazy">
+                </div>
+                <div class="projeto-corpo">
+                    <p class="projeto-tipo">Site institucional · Desenvolvido por mim</p>
+                    <h3>Scraπ: Scratch e Matemática</h3>
+                    <p>
+                        Site do projeto Scraπ, uma comunidade de aprendizagem que junta o Scratch
+                        e professores de Matemática do 2.º ciclo do Ensino Básico.
+                        Fiz o site de raiz: design, páginas, versão para telemóvel e publicação.
+                    </p>
+                    <ul class="destaques">
+                        <li>Design responsivo, com menu próprio para telemóvel</li>
+                        <li>Aviso de cookies e página de aviso legal (RGPD)</li>
+                        <li>SEO: sitemap, robots.txt e imagem de partilha nas redes sociais</li>
+                        <li>Fontes alojadas no próprio site e imagens em WebP para carregar depressa</li>
+                    </ul>
+                    <ul class="tags">
+                        <li>HTML</li><li>CSS</li><li>JavaScript</li><li>GitHub Pages</li>
+                    </ul>
+                    <div class="projeto-links">
+                        <a href="https://scra-pi.github.io" target="_blank" rel="noopener">Ver site ↗</a>
+                        <a href="https://github.com/scra-pi/scra-pi.github.io" target="_blank" rel="noopener">Código ↗</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="projeto">
+                <div class="projeto-imagem projeto-imagem-siga" aria-hidden="true">
+                    <div class="siga-mock">
+                        <div class="siga-barra"><span></span><span></span><span></span></div>
+                        <div class="siga-conteudo">
+                            <strong>SIGA</strong>
+                            <small>Sistema Integrado de Gestão Académica</small>
+                            <div class="siga-linhas"><i></i><i></i><i></i></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="projeto-corpo">
+                    <p class="projeto-tipo">Aplicação web · Trabalho em equipa</p>
+                    <h3>SIGA: plataforma da associação académica</h3>
+                    <p>
+                        Plataforma onde núcleos, secções e departamentos de uma associação académica
+                        fazem e aprovam pedidos (espaços, material, transporte, eventos), com
+                        perfis e permissões por cargo. Contribuí sobretudo para o módulo de
+                        <strong>Formulários</strong>, no frontend e no backend.
+                    </p>
+                    <ul class="destaques">
+                        <li>Rascunhos com gravação automática, partilhados com o departamento</li>
+                        <li>Editor de perguntas com inserção rápida e arrastar para reordenar</li>
+                        <li>Imagens de capa e nas perguntas, adaptadas ao telemóvel</li>
+                        <li>Partilha do link de um formulário publicado</li>
+                    </ul>
+                    <ul class="tags">
+                        <li>Next.js</li><li>React</li><li>TypeScript</li><li>Java</li><li>Spring Boot</li><li>PostgreSQL</li>
+                    </ul>
+                    <div class="projeto-links">
+                        <span class="nota">Repositório privado</span>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <section id="competencias" class="seccao contentor">
+            <h2 class="titulo-seccao">Competências</h2>
+            <div class="competencias-grelha">
+                <div class="cartao">
+                    <h3>Linguagens</h3>
+                    <ul class="tags"><li>Java</li><li>Python</li><li>C</li><li>JavaScript</li><li>TypeScript</li></ul>
+                </div>
+                <div class="cartao">
+                    <h3>Web</h3>
+                    <ul class="tags"><li>HTML</li><li>CSS</li><li>React</li><li>Next.js</li><li>Spring Boot</li></ul>
+                </div>
+                <div class="cartao">
+                    <h3>Dados e ferramentas</h3>
+                    <ul class="tags"><li>PostgreSQL</li><li>Git</li><li>GitHub</li><li>VS Code</li></ul>
+                </div>
+                <div class="cartao">
+                    <h3>Conceitos</h3>
+                    <ul class="tags"><li>Programação orientada a objetos</li><li>Algoritmos</li><li>APIs REST</li><li>Design responsivo</li></ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="contactos" class="seccao contentor">
+            <div class="contacto-caixa">
+                <h2>Vamos falar?</h2>
+                <p>Procuro estágios, projetos e oportunidades para aprender. Escreve-me por email ou vê o meu código no GitHub.</p>
+                <div class="botoes">
+                    <a class="botao botao-principal" href="mailto:dalilaloureiro@ua.pt">dalilaloureiro@ua.pt</a>
+                    <a class="botao botao-secundario" href="https://github.com/dalilaloureiro" target="_blank" rel="noopener">GitHub ↗</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="rodape">
+        <div class="contentor">
+            <p>© 2026 Dalila Loureiro</p>
+            <a href="#">Voltar ao topo ↑</a>
+        </div>
+    </footer>
+
+</body>
+</html>

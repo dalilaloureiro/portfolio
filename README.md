@@ -1,66 +1,38 @@
-<div align="center">
+# Portefólio | Dalila Loureiro
 
-# 💻 Portefólio Pessoal
-### Engenharia Informática
+Portefólio pessoal de estudante de Engenharia Informática, com os meus projetos e competências.
 
-📍 Portefólio académico para apresentação de projetos e competências  
-📅 2025
+🔗 **https://dalilaloureiro.github.io/portfolio/**
 
-</div>
+## Projetos em destaque
 
----
+| Projeto | O que fiz | Tecnologias |
+| --- | --- | --- |
+| [Scraπ](https://scra-pi.github.io) | Site do projeto, feito de raiz: design, responsivo, cookies/RGPD, SEO | HTML, CSS, JavaScript |
+| SIGA | Plataforma de gestão de uma associação académica. Trabalhei no módulo de Formulários (frontend e backend) | Next.js, TypeScript, Spring Boot, PostgreSQL |
 
-## 👤 Sobre mim
-🎓 Sou estudante de **Engenharia Informática**, com interesse em programação,
-desenvolvimento de software e aprendizagem contínua.
+## Ficheiros
 
-📌 Este portefólio **serve como** uma forma de demonstrar, de maneira prática,
-os conhecimentos adquiridos ao longo do curso.
+| Ficheiro | O que é |
+| --- | --- |
+| `index.html` | A página (conteúdo e textos) |
+| `style.css` | Cores, letra, modo escuro e versão para telemóvel |
+| `img/` | Imagens dos projetos |
 
----
+As cores estão todas no início do `style.css` (`:root`). Para mudar a cor de destaque, basta alterar `--destaque`.
 
-## 🛠️ Competências Técnicas
-- 💡 Linguagens: **Java, Python, C**
-- 🧰 Ferramentas: **Git, GitHub, VS Code**
-- 📚 Conceitos: Programação Orientada a Objetos, Algoritmos
+## Publicar no GitHub Pages
 
----
+1. No repositório, abrir **Settings → Pages**.
+2. Em **Source**, escolher **Deploy from a branch**, ramo `main` e pasta `/ (root)`.
+3. Guardar. Passado um minuto, o site fica em `https://dalilaloureiro.github.io/portfolio/`.
 
-## 📂 Projetos
-### 🔹 Projeto 1 – Nome do Projeto
-📄 Breve descrição do projeto  
-⚙️ Tecnologias utilizadas  
-🔗 [Ver no GitHub](https://github.com/username/projeto1)
+## Ver no computador
 
-### 🔹 Projeto 2 – Nome do Projeto
-📄 Breve descrição do projeto  
-⚙️ Tecnologias utilizadas  
-🔗 [Ver no GitHub](https://github.com/username/projeto2)
+Abrir o `index.html` no navegador, ou correr um servidor local:
 
----
+```bash
+python -m http.server 8000
+```
 
-## 🎯 Objetivos do Portefólio
-✅ Demonstrar competências técnicas  
-✅ Evidenciar projetos académicos  
-✅ Criar uma presença online profissional  
-
----
-
-## 🌐 Portefólio Online
-🔗 **https://username.github.io**
-
----
-
-## 📫 Contactos
-📧 Email: teuemail@email.com  
-🐙 GitHub: https://github.com/username  
-💼 LinkedIn: https://linkedin.com/in/teunome  
-
----
-
-<div align="center">
-
-✨ *Portefólio em constante atualização* ✨
-
-</div>
-
+e ir a http://localhost:8000.
