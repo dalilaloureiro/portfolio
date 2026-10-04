@@ -144,8 +144,37 @@ h1, h2, h3 {
 
 /* ---------- Hero ---------- */
 .hero {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    gap: 48px;
     padding-top: 112px;
     padding-bottom: 96px;
+}
+
+.hero-foto {
+    position: relative;
+    isolation: isolate;
+    width: 280px;
+}
+
+.hero-foto::before {
+    content: "";
+    position: absolute;
+    inset: -12px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--destaque), #c084fc);
+    opacity: 0.25;
+    z-index: -1;
+}
+
+.hero-foto img {
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid var(--fundo-cartao);
+    box-shadow: var(--sombra);
 }
 
 .etiqueta {
@@ -510,8 +539,19 @@ h1, h2, h3 {
     }
 
     .hero {
-        padding-top: 64px;
+        grid-template-columns: 1fr;
+        gap: 32px;
+        padding-top: 48px;
         padding-bottom: 56px;
+    }
+
+    .hero-foto {
+        order: -1;
+        width: 140px;
+    }
+
+    .hero-foto::before {
+        inset: -8px;
     }
 
     .sobre-grelha,
